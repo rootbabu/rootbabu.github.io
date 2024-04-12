@@ -5,14 +5,8 @@
     <script type="text/javascript">
         // Redirect immediately on page load
         window.onload = function() {
-            // Example condition: if the current path is not the root '/'
-            if (window.location.pathname !== '/') {
-                // Redirect to the desired URL, preserving the path
-                window.location.href = 'https://0xrisec.github.io/' + window.location.pathname;
-            } else {
-                // If at root, redirect to a specific page
-                window.location.href = 'https://0xrisec.github.io/';
-            }
+            // Redirect to the homepage of 'https://0xrisec.github.io/' for any path
+            window.location.href = 'https://0xrisec.github.io/';
         };
     </script>
 </head>
